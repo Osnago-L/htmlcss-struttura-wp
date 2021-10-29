@@ -3,29 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     max-width: 800px;
     background-color: white;
     margin: auto;
     padding: 20px 0;
+    
 }
 .banner{
-    height: 80px;
+    height: 90px; 
     background-color: #e579e6;
 
 }
 .y_main{
     background-color: #e1d67a;
-    height: 300px;
+    height: 310px;
     margin: 20px 0;
 }
 .b_head_main{
     height: 60px;
-    border-bottom: 5px solid #0086ff ;
+    /* border-bottom: 5px solid #0086ff ; */
     background-color: #abcfe7;
 }
 .b_main{
     height: 400px;
+    background-color: #0086ff;
+    padding: 10px 0;
 }
 
 .b_main div {
@@ -36,16 +40,17 @@ body{
 }
 .b_left,.b_right{
     width: 20%;
-    border-bottom: 14px solid #0086ff;
-    border-top: 7px solid #0086ff;
+    /* border-bottom: 14px solid #0086ff;
+    border-top: 7px solid #0086ff; */
     
 }
 .b_centre{
-    width: 60%;
-    border-bottom: 14px solid #0086ff;
+    width: 57%;
+    margin: 0 1.5%;
+    /* border-bottom: 14px solid #0086ff;
     border-top: 7px solid #0086ff;
     border-left: 14px solid #0086ff;;
-    border-right: 14px solid #0086ff;;
+    border-right: 14px solid #0086ff;; */
 }
 
 
